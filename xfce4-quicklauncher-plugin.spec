@@ -11,7 +11,6 @@ BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	libxfcegui4-devel >= 4.4.2
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-quicklauncher-plugin
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 This plugin allows you to have lots of launchers in the panel, displaying 
