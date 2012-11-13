@@ -1,0 +1,12 @@
+diff -Naur xfce4-quicklauncher-plugin-1.9.4/panel-plugin/main.c xfce4-quicklauncher-plugin-1.9.4.tpg/panel-plugin/main.c
+--- xfce4-quicklauncher-plugin-1.9.4/panel-plugin/main.c	2007-05-14 20:42:09.000000000 +0000
++++ xfce4-quicklauncher-plugin-1.9.4.tpg/panel-plugin/main.c	2009-11-07 17:29:15.000000000 +0000
+@@ -320,7 +320,7 @@
+ 	launcher = launcher_new(_("Lock"), "xflock4", XFCE_ICON_CATEGORY_SYSTEM,
+ 							NULL, quicklauncher);
+ 	quicklauncher_add_element(quicklauncher, launcher);
+-	launcher = launcher_new(_("Parameters"),"xfce-setting-show", XFCE_ICON_CATEGORY_SETTINGS,
++	launcher = launcher_new(_("Parameters"),"xfce-settings-manager", XFCE_ICON_CATEGORY_SETTINGS,
+ 							NULL, quicklauncher);
+ 	quicklauncher_add_element(quicklauncher, launcher);
+ 	launcher = launcher_new(_("Applications"), "xfce4-appfinder", XFCE_ICON_CATEGORY_UTILITY,
