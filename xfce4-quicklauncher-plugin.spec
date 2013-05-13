@@ -12,7 +12,7 @@ Patch2:		xfce4-quicklauncher-plugin-1.9.4-parameters.patch
 Patch3:		xfce4-quicklauncher-plugin-1.9.4-panel-load.patch
 Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	xfce4-panel-devel >= 4.4.2
-BuildRequires:	libxfcegui4-devel >= 4.4.2
+BuildRequires:	pkgconfig(libxfcegui4-1.0) >= 4.4.2
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-quicklauncher-plugin
 
