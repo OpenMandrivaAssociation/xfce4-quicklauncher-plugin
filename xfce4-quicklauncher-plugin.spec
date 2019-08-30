@@ -1,7 +1,7 @@
 Summary:	Quicklauncher plugin for the Xfce panel
 Name:		xfce4-quicklauncher-plugin
 Version:	1.9.4
-Release:	16
+Release:	17
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-quicklauncher-plugin
@@ -11,8 +11,8 @@ Patch1:		02_fix-missing-english-translation.patch
 Patch2:		xfce4-quicklauncher-plugin-1.9.4-parameters.patch
 Patch3:		xfce4-quicklauncher-plugin-1.9.4-panel-load.patch
 Requires:	xfce4-panel >= 4.4.2
-BuildRequires:	pkgconfig(libxfce4panel-1.0)
-BuildRequires:	pkgconfig(libxfcegui4-1.0) >= 4.4.2
+BuildRequires:	pkgconfig(libxfce4panel-2.0)
+BuildRequires:	pkgconfig(libxfcegui4-1.0)
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-quicklauncher-plugin
 
@@ -28,11 +28,11 @@ them on several lines.
 %patch3 -p1
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %find_lang %{name}
 
