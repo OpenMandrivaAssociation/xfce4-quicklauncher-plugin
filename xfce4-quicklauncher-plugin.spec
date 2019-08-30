@@ -28,6 +28,7 @@ them on several lines.
 %patch3 -p1
 
 %build
+%xdt_autogen
 %configure
 %make_build
 
