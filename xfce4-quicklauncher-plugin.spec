@@ -4,7 +4,7 @@ Version:	1.9.4
 Release:	17
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-quicklauncher-plugin
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-quicklauncher-plugin
 Source0:	http://goodies.xfce.org/releases/xfce4-quicklauncher-plugin/%{name}-%{version}.tar.bz2
 Patch0:		01_save-settings.patch
 Patch1:		02_fix-missing-english-translation.patch
