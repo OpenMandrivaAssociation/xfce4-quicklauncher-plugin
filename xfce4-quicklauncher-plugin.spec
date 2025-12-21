@@ -11,6 +11,11 @@ Patch1:		02_fix-missing-english-translation.patch
 Patch2:		xfce4-quicklauncher-plugin-1.9.4-parameters.patch
 Patch3:		xfce4-quicklauncher-plugin-1.9.4-panel-load.patch
 Requires:	xfce4-panel >= 4.4.2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libxfce4panel-2.0)
 BuildRequires:	pkgconfig(libxfcegui4-1.0)
 BuildRequires:	perl(XML::Parser)
